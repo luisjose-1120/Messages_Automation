@@ -9,8 +9,8 @@ start_date = "2024/11/10"
 end_date = "2024/11/20"
 message = "Onsert message"
 
-directory = "C:\\Users\\Luis\\Downloads\\"
-df = pd.read_csv(directory+"Onsert - Sheet1.csv", converters={'Company' : str})
+directory = "C:"
+df = pd.read_csv(directory+"Onsert.csv", converters={'Company' : str})
 df ["ID"] = ""
 df ["Document Type"] = ""
 df ["Start Date"] = start_date
